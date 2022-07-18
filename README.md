@@ -25,33 +25,33 @@
 ___
 
 ## Основные скриншоты
- - Успешно выполненный terraform
+ - **Успешно выполненный terraform**
  ![img](Images/terraform_apply.png)
- - Основная инфраструктура после создания
+ - **Основная инфраструктура после создания**
  ![img](Images/infra_yc.png)
- - VPC с подсетями в разных зонах доступности
+ - **VPC с подсетями в разных зонах доступности**
  ![img](Images/vpc.png)
- - DNS Записи
+ - **DNS Записи**
  ![img](Images/dns.png)
- - Основной сайт, после выполнения роли `wordpress`
+ - **Основной сайт, после выполнения роли `wordpress`**
  ![img](Images/wp.png)
 
 ### Стек мониторинга нашей системы
 
- - Prometheus
+ - **Prometheus**
  ![img](Images/prometheus_1.png)
  ![img](Images/prometheus_2.png)
  ![img](Images/prometheus_3.png)
- - Alertmanager
+ - **Alertmanager**
  ![img](Images/alertmanager.png)
  ![img](Images/alertmanager_status.png)
- - Grafana
+ - **Grafana**
  ![img](Images/grafana_dashboards.png)
  ![img](Images/grafana_node_exporter.png)
 
 ### Gitlab и Runner
 
- - Gitlab и Gitlab Runner
+ - **Gitlab и Gitlab Runner**
  ![img](Images/gitlab.png)
  ![img](Images/gitlab_runner.png)
 

@@ -9,7 +9,7 @@
 
 ## Переменные
 
-| Название переменной | Значение по умолчанию | Описание |
+| Название переменной | Значение | Описание |
 | --- | --- | --- |
 | `reg_runner_token` | `GR1348941zhxmNwD8zrzySqCyJtM3` | Токен для GitLab Runner |
 | `gitlab_runner_script_url` | `https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.deb.sh` | Установочный скрипт репозитория GitLab Runner  |
