@@ -35,18 +35,23 @@ ___
  ![img](Images/dns.png)
  - **Основной сайт, после выполнения роли `wordpress`**
  ![img](Images/wp.png)
+ - **Настроенная репликация `mysql`**
+ ![img](Images/mysql_rep.png)
 
 ### Стек мониторинга нашей системы
 
  - **Prometheus**
  ![img](Images/prometheus_1.png)
+  - **Специально перезагрузили БД**
  ![img](Images/prometheus_2.png)
+  - **Ноды в Prometheus**
  ![img](Images/prometheus_3.png)
  - **Alertmanager**
  ![img](Images/alertmanager.png)
  ![img](Images/alertmanager_status.png)
  - **Grafana**
  ![img](Images/grafana_dashboards.png)
+ - **Dashboards Node Exporter**
  ![img](Images/grafana_node_exporter.png)
 
 ### Gitlab и Runner
