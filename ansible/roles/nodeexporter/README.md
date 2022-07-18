@@ -11,7 +11,7 @@
 ## Переменные
 
 | Название переменной | Значение | Описание |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `node_exporter_version` | `1.3.1` | Версия Node Exporter |
 | `node_exporter_bin` | `/usr/local/bin/node_exporter` | Директория Node Exporter  |
 | `node_exporter_user` | `node-exporter` | Пользователь для Node Exporter |

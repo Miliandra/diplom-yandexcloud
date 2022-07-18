@@ -10,7 +10,7 @@
 ## Переменные
 
 | Название переменной | Значение | Описание |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | `gitlab_domain` | `gitlab.you.domain` | Домен GitLab |
 | `gitlab_external_url` | `https://{{ gitlab_domain }}/` | Внешний URL для Gitlab  |
 | `gitlab_git_data_dir` | `/var/opt/gitlab/git-data` | Директория для данных Gitlab |
