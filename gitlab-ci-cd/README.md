@@ -27,8 +27,3 @@
 ![img](../Images/change_themes.png)
 
 Все действия при выполнении CI/CD, описаны в комментариях в файле `.gitlab-ci.yml`.
-
-# Ссылки
-**Материал используемый во время написания CI/CD**:\
-[Simple WordPress Auto-deployment using GitLab CI/CD](https://taylor.callsen.me/simple-wordpress-auto-deployment-using-gitlab-ci-cd/)\
-[How To Set Up a Continuous Deployment Pipeline with GitLab CI/CD on Ubuntu 18.04](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-continuous-deployment-pipeline-with-gitlab-ci-cd-on-ubuntu-18-04#step-3-%E2%80%94-creating-a-deployment-user)

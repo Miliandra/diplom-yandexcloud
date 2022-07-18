@@ -24,9 +24,3 @@
   - ext_ip - Зарезервированный публичный ip адрес для `nginx`.
   - token - OAuth-токен для доступа к Yandex Cloud.
   - image_id - Образ операционной системы в YC.
-
-# Ссылки
- **Ссылки используемые во время написания диплома и для более глубокого понимания конфигурации**:\
-  [Создание статического маршрута в YC](https://cloud.yandex.ru/docs/vpc/operations/static-route-create)\
-  [Создание бакета s3](https://cloud.yandex.ru/docs/storage/operations/buckets/create)\
-  [Создание DNS-зоны в YC](https://cloud.yandex.ru/docs/dns/quickstart#create-public-zone)
