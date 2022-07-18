@@ -12,8 +12,8 @@
 
 | Название переменной | Значение по умолчанию | Описание |
 | --- | --- | --- |
-| `gitlab_domain` |   | Домен GitLab |
-| `gitlab_external_url` |  | Внешний URL для Gitlab  |
+| `gitlab_domain` | `gitlab.you.domain` | Домен GitLab |
+| `gitlab_external_url` | `https://{{ gitlab_domain }}/` | Внешний URL для Gitlab  |
 | `gitlab_git_data_dir` | `/var/opt/gitlab/git-data` | Директория для данных Gitlab |
 | `gitlab_edition` | `gitlab-ce` | Версия распространения Gitlab |
 | `gitlab_version` |   | Версия Gitlab |
