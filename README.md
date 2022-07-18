@@ -11,7 +11,7 @@
 
 ## Регистрация доменного имени
 
-1. Был зарегестрирован домен `miliandra.site` на [reg.ru](https://reg.ru)
+1. Был зарегистрирован домен `miliandra.site` на [reg.ru](https://reg.ru)
 2. Проверка на `whois` [Информация](https://www.reg.ru/whois/miliandra.site)
 
 ## Создание инфраструктуры
