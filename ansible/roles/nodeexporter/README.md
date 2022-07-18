@@ -16,5 +16,5 @@
 | `node_exporter_bin` | `/usr/local/bin/node_exporter` | Директория Node Exporter  |
 | `node_exporter_user` | `node-exporter` | Пользователь для Node Exporter |
 | `node_exporter_group` | `node-exporter` | Группа для Node Exporter |
-| `node_exporter_dir_conf` | `/etc/node_exporter` | Директория конфигурационых файлов  |
+| `node_exporter_dir_conf` | `/etc/node_exporter` | Директория конфигурационных файлов  |
 | `node_exporter_link_download` | `https://github.com/prometheus/node_exporter/releases/download/` | Ссылка для загрузки  |
