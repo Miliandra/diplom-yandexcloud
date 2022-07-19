@@ -41,12 +41,13 @@ resource "local_file" "inventory" {
           ansible_user: ubuntu
           ansible_ssh_common_args: "-o StrictHostKeyChecking=no -J ubuntu@${yandex_compute_instance.nginx.network_interface.0.nat_ip_address}"
           mysql_replication_role: 'master'
-          
+          mysql_server_id: 1
         db02:
           ansible_connection: ssh
           ansible_user: ubuntu
           ansible_ssh_common_args: "-o StrictHostKeyChecking=no -J ubuntu@${yandex_compute_instance.nginx.network_interface.0.nat_ip_address}"
           mysql_replication_role: 'slave'
+          mysql_server_id: 2
     wordpress:
       hosts:
         app:
@@ -74,7 +75,7 @@ resource "local_file" "inventory" {
           ansible_user: ubuntu
           ansible_ssh_common_args: "-o StrictHostKeyChecking=no -J ubuntu@${yandex_compute_instance.nginx.network_interface.0.nat_ip_address}"
     DOC
-  filename = "ansible/inventory/stage.yml"
+  filename = "../ansible/inventory/stage.yml"
   file_permission = "0644"
 
   depends_on = [yandex_compute_instance.nginx]
